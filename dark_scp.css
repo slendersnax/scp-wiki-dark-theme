@@ -1,0 +1,44 @@
+:root {
+    --main-dark-background: #111;
+    --lighter-dark-background: #222;
+    --lighter-ER-dark-background: #333;
+}
+
+/* tag elements*/
+
+body {
+    color: #ccc;
+}
+
+a {
+    color: #e85f5f;
+}
+
+blockquote,
+#toc {
+    background: var(--lighter-ER-dark-background);
+}
+
+/* id, class elements */
+
+#container, 
+#content-wrap {
+    background: var(--main-dark-background);
+}
+
+#side-bar .side-block,
+#side-bar .side-block.resources,
+#interwiki .side-block,
+.content-panel,
+.content-panel.standalone {
+    background: var(--lighter-dark-background) !important;
+}
+
+#side-bar .heading, 
+#interwiki .heading {
+    color: #fe2f2f;
+}
+
+.scp-image-block .scp-image-caption {
+    background: var(--lighter-dark-background);
+}

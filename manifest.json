@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "SCP Wiki Dark Theme",
+  "version": "1.0",
+  
+  "icons": {
+    "48": "icons/scp-48.png",
+    "96": "icons/scp-96.png"
+  },
+
+  "description": "Dark theme for the SCP wiki.",
+
+  "content_scripts": [
+    {
+      "matches": ["*://scp-wiki.wikidot.com/*"],
+      "css": ["dark_scp.css"]
+    }
+  ]
+
+}
