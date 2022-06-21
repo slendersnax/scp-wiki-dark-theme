@@ -4,19 +4,22 @@
     --lighter-ER-dark-background: #333;
 }
 
-/* tag elements*/
+/* tag elements mostly */
 
 body {
     color: #ccc;
 }
 
-a {
+a,
+#interwiki div.menu-item a,
+#side-bar div.menu-item a {
     color: #e85f5f;
 }
 
 blockquote,
 #toc,
-.blockquote {
+div.blockquote,
+table.wiki-content-table th {
     background: var(--lighter-ER-dark-background);
 }
 
@@ -25,6 +28,10 @@ blockquote,
 #container, 
 #content-wrap {
     background: var(--main-dark-background);
+}
+
+#side-bar {
+    background-color: #001;
 }
 
 #side-bar .side-block,
