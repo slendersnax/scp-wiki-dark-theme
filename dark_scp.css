@@ -1,7 +1,8 @@
 :root {
     --main-dark-background: #111;
-    --lighter-dark-background: #222;
-    --lighter-ER-dark-background: #333;
+    --lighter-dark-background-2: #222;
+    --lighter-dark-background-3: #333;
+    --lighter-dark-background-4: #444;
 }
 
 /* tag elements mostly */
@@ -11,6 +12,7 @@ body {
 }
 
 a,
+a:visited,
 #interwiki div.menu-item a,
 #side-bar div.menu-item a {
     color: #e85f5f;
@@ -20,7 +22,11 @@ blockquote,
 #toc,
 div.blockquote,
 table.wiki-content-table th {
-    background: var(--lighter-ER-dark-background);
+    background: var(--lighter-dark-background-3);
+}
+
+blockquote > blockquote {
+    box-shadow: 0px 0px 0px 2px #001;
 }
 
 /* id, class elements */
@@ -39,14 +45,19 @@ table.wiki-content-table th {
 #interwiki .side-block,
 .content-panel,
 .content-panel.standalone {
-    background: var(--lighter-dark-background) !important;
+    background: var(--lighter-dark-background-2);
 }
 
-#side-bar .heading, 
-#interwiki .heading {
+#interwiki .heading, 
+#side-bar .heading {
     color: #fe2f2f;
+    box-shadow: 0 .0625rem 0 0 #fe2f2f;
 }
 
 .scp-image-block .scp-image-caption {
-    background: var(--lighter-dark-background);
+    background: var(--lighter-dark-background-2);
+}
+
+.page {
+    background-image: linear-gradient(to top ,rgba(202, 219, 228, .2) 0%, #000 8%);
 }
