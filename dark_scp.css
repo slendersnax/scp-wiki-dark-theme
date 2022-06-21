@@ -15,7 +15,8 @@ a {
 }
 
 blockquote,
-#toc {
+#toc,
+.blockquote {
     background: var(--lighter-ER-dark-background);
 }
 
