@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "SCP Wiki Dark Theme",
-  "version": "2.3",
+  "version": "2.4",
   
   "icons": {
     "48": "icons/scp-48.png",

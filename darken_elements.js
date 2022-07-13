@@ -16,7 +16,7 @@ const tooBright = (element) => {
             sum += Number(values[i]);
         }
 
-        return sum >= (220 * 3) ? true : false;
+        return sum >= (160 * 3) ? true : false;
     }
 }
 
